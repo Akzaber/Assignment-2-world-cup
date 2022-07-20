@@ -90,13 +90,11 @@ blog-line{
 .time-msg{
   margin-right: 30px;
 }
-.view-all{
-  align-items: center;
-}
 
 /*----------
  bottom part 
  -----------*/
+
 footer{
   background-color: #161616;
   color: #FFFF;
@@ -128,7 +126,7 @@ footer>span>a{
 
 /* media query */
 /*---------
- Mobile items
+ Mobile device
 --------- */
 @media only screen and (max-width: 576px) {
   .banner{
