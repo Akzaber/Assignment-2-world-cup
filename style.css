@@ -55,7 +55,7 @@ h1{
   height: 312px;
   border-radius: 5px;
 }
-.mini-part>.color-btn>a{
+.anchor-btn>a:hover{
   color: #FFFF;
   background-color: #DD0000;
 }
@@ -71,9 +71,6 @@ h1{
   border-radius: 5px;
   text-align: center;
 }
-/* .anchor-btn{
-  margin-bottom: 10px;
-} */
 .blogs{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -129,6 +126,7 @@ footer>span>a{
   margin: 30px;
 }
 
+/* media query */
 /*---------
  Mobile items
 --------- */
@@ -204,11 +202,25 @@ footer>span>a{
       padding: 20px;
       margin: 5px;
     }
-    .anchor-btn>a:hover{
-      background-color: #DD0000;
-    }
     footer>span{
       display: inline-block;
       margin: 10px;
     }
+}
+
+/*---------- Up Coming match --------- */
+
+.match{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+  margin: 0px 20px;
+  margin-top: 53px;
+  margin-bottom: 20px;
+}
+.match-info{
+  text-align: center;
+  margin-bottom: 53px;
+  
 }
